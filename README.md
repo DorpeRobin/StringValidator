@@ -13,6 +13,23 @@ import StringValidator
 Validator.isEmail("foo@bar.com") // returns true
 ```
 
+## Integration
+### Swift Package Manager
+You can use [The Swift Package Manager](https://swift.org/package-manager) to install `StringValidator` by adding the proper description to your `Package.swift` file:
+```swift
+import PackageDescription
+
+let package = Package(
+    name: "YOUR_PROJECT_NAME",
+    targets: [],
+    dependencies: [
+        .Package(url: "https://github.com/DorpeRobin/StringValidator",Version(0,1,0))
+    ]
+)
+```
+
+Note that the [Swift Package Manager](https://swift.org/package-manager) is still in early design and development, for more information checkout its [GitHub Page](https://github.com/apple/swift-package-manager)
+
 ## Validators
 
 The library lets you validate common strings you encounter getting input from users or using JSON.
@@ -61,10 +78,10 @@ Validator.isFQDN("domain.com") // returns true
 ```
 More coming soon!
 
-### Credits
+## Credits
 This library is a Swift adaptation of the popular npm library [validator.js](https://www.npmjs.com/package/validator)
 
-### License (MIT)
+## License (MIT)
 ```
 MIT License
 
