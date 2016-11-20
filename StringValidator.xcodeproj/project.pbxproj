@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		823F44C11DCD66AE00493BD5 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44C01DCD66AE00493BD5 /* Number.swift */; };
+		823F44C21DCD66AE00493BD5 /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44C01DCD66AE00493BD5 /* Number.swift */; };
+		823F44C61DCD6CFD00493BD5 /* MobileNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44C51DCD6CFD00493BD5 /* MobileNumber.swift */; };
+		823F44C71DCD6CFD00493BD5 /* MobileNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44C51DCD6CFD00493BD5 /* MobileNumber.swift */; };
+		823F44C91DCD6D4400493BD5 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44C81DCD6D4400493BD5 /* Email.swift */; };
+		823F44CA1DCD6D4400493BD5 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44C81DCD6D4400493BD5 /* Email.swift */; };
+		823F44D11DCE8D4100493BD5 /* Boolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44D01DCE8D4100493BD5 /* Boolean.swift */; };
+		823F44D21DCE8D4100493BD5 /* Boolean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44D01DCE8D4100493BD5 /* Boolean.swift */; };
+		823F44D41DCE8D7F00493BD5 /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44D31DCE8D7F00493BD5 /* Web.swift */; };
+		823F44D51DCE8D7F00493BD5 /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44D31DCE8D7F00493BD5 /* Web.swift */; };
+		823F44D71DCE8EB300493BD5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44D61DCE8EB300493BD5 /* Data.swift */; };
+		823F44D81DCE8EB300493BD5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823F44D61DCE8EB300493BD5 /* Data.swift */; };
+		825BFFA41DD7552A0068BCF5 /* BooleanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825BFFA31DD7552A0068BCF5 /* BooleanTests.swift */; };
+		825BFFA51DD774F30068BCF5 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StringValidator.swift /* Validator.swift */; };
+		825BFFA71DD775E70068BCF5 /* NumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825BFFA61DD775E70068BCF5 /* NumberTests.swift */; };
+		825BFFA91DD77A9D0068BCF5 /* EmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825BFFA81DD77A9D0068BCF5 /* EmailTests.swift */; };
+		825BFFAB1DD79B000068BCF5 /* WebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825BFFAA1DD79B000068BCF5 /* WebTests.swift */; };
+		825BFFAD1DD79CAA0068BCF5 /* MobileNumberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825BFFAC1DD79CAA0068BCF5 /* MobileNumberTests.swift */; };
+		825BFFAF1DD7E8970068BCF5 /* DataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825BFFAE1DD7E8970068BCF5 /* DataTests.swift */; };
+		_LinkFileRef_StringValidator_via_StringValidatorTests /* StringValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StringValidator" /* StringValidator.framework */; };
+		__src_cc_ref_Sources/StringValidator.swift /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/StringValidator.swift /* Validator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		823F44BF1DCD5A3700493BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_StringValidator";
+			remoteInfo = StringValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		823F44C01DCD66AE00493BD5 /* Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
+		823F44C51DCD6CFD00493BD5 /* MobileNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNumber.swift; sourceTree = "<group>"; };
+		823F44C81DCD6D4400493BD5 /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		823F44D01DCE8D4100493BD5 /* Boolean.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boolean.swift; sourceTree = "<group>"; };
+		823F44D31DCE8D7F00493BD5 /* Web.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		823F44D61DCE8EB300493BD5 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		825BFFA31DD7552A0068BCF5 /* BooleanTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooleanTests.swift; sourceTree = "<group>"; };
+		825BFFA61DD775E70068BCF5 /* NumberTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberTests.swift; sourceTree = "<group>"; };
+		825BFFA81DD77A9D0068BCF5 /* EmailTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailTests.swift; sourceTree = "<group>"; };
+		825BFFAA1DD79B000068BCF5 /* WebTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebTests.swift; sourceTree = "<group>"; };
+		825BFFAC1DD79CAA0068BCF5 /* MobileNumberTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNumberTests.swift; sourceTree = "<group>"; };
+		825BFFAE1DD7E8970068BCF5 /* DataTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTests.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/StringValidator.swift /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		__PBXFileRef_StringValidator.xcodeproj/Configs/Project.xcconfig /* StringValidator.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StringValidator.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		"_____Product_StringValidator" /* StringValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = StringValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_StringValidatorTests" /* StringValidatorTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = StringValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_StringValidator" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_StringValidatorTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_StringValidator_via_StringValidatorTests /* StringValidator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_StringValidatorTests" /* StringValidatorTests.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_StringValidator" /* StringValidator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_StringValidator.xcodeproj/Configs/Project.xcconfig /* StringValidator.xcodeproj/Configs/Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_StringValidator" /* StringValidator */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_StringValidator" /* StringValidator */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/StringValidator.swift /* Validator.swift */,
+				823F44C81DCD6D4400493BD5 /* Email.swift */,
+				823F44D31DCE8D7F00493BD5 /* Web.swift */,
+				823F44C51DCD6CFD00493BD5 /* MobileNumber.swift */,
+				823F44C01DCD66AE00493BD5 /* Number.swift */,
+				823F44D01DCE8D4100493BD5 /* Boolean.swift */,
+				823F44D61DCE8EB300493BD5 /* Data.swift */,
+			);
+			name = StringValidator;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_StringValidatorTests" /* StringValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				825BFFA81DD77A9D0068BCF5 /* EmailTests.swift */,
+				825BFFAA1DD79B000068BCF5 /* WebTests.swift */,
+				825BFFAC1DD79CAA0068BCF5 /* MobileNumberTests.swift */,
+				825BFFA61DD775E70068BCF5 /* NumberTests.swift */,
+				825BFFA31DD7552A0068BCF5 /* BooleanTests.swift */,
+				825BFFAE1DD7E8970068BCF5 /* DataTests.swift */,
+			);
+			name = StringValidatorTests;
+			path = Tests/StringValidatorTests;
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_StringValidatorTests" /* StringValidatorTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_StringValidator" /* StringValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_StringValidator" /* Build configuration list for PBXNativeTarget "StringValidator" */;
+			buildPhases = (
+				CompilePhase_StringValidator /* Sources */,
+				"___LinkPhase_StringValidator" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringValidator;
+			productName = StringValidator;
+			productReference = "_____Product_StringValidator" /* StringValidator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_StringValidatorTests" /* StringValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_StringValidatorTests" /* Build configuration list for PBXNativeTarget "StringValidatorTests" */;
+			buildPhases = (
+				CompilePhase_StringValidatorTests /* Sources */,
+				"___LinkPhase_StringValidatorTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_StringValidator /* PBXTargetDependency */,
+			);
+			name = StringValidatorTests;
+			productName = StringValidatorTests;
+			productReference = "_____Product_StringValidatorTests" /* StringValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "StringValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_StringValidator" /* StringValidator */,
+				"______Target_StringValidatorTests" /* StringValidatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_StringValidator /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				823F44D71DCE8EB300493BD5 /* Data.swift in Sources */,
+				823F44D41DCE8D7F00493BD5 /* Web.swift in Sources */,
+				823F44D11DCE8D4100493BD5 /* Boolean.swift in Sources */,
+				823F44C61DCD6CFD00493BD5 /* MobileNumber.swift in Sources */,
+				823F44C11DCD66AE00493BD5 /* Number.swift in Sources */,
+				823F44C91DCD6D4400493BD5 /* Email.swift in Sources */,
+				__src_cc_ref_Sources/StringValidator.swift /* Validator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_StringValidatorTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				825BFFAF1DD7E8970068BCF5 /* DataTests.swift in Sources */,
+				825BFFA51DD774F30068BCF5 /* Validator.swift in Sources */,
+				823F44D81DCE8EB300493BD5 /* Data.swift in Sources */,
+				823F44D51DCE8D7F00493BD5 /* Web.swift in Sources */,
+				825BFFA71DD775E70068BCF5 /* NumberTests.swift in Sources */,
+				823F44D21DCE8D4100493BD5 /* Boolean.swift in Sources */,
+				823F44C71DCD6CFD00493BD5 /* MobileNumber.swift in Sources */,
+				825BFFA91DD77A9D0068BCF5 /* EmailTests.swift in Sources */,
+				823F44C21DCD66AE00493BD5 /* Number.swift in Sources */,
+				823F44CA1DCD6D4400493BD5 /* Email.swift in Sources */,
+				825BFFAB1DD79B000068BCF5 /* WebTests.swift in Sources */,
+				825BFFAD1DD79CAA0068BCF5 /* MobileNumberTests.swift in Sources */,
+				825BFFA41DD7552A0068BCF5 /* BooleanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_StringValidator /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_StringValidator" /* StringValidator */;
+			targetProxy = 823F44BF1DCD5A3700493BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_StringValidator /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = StringValidator.xcodeproj/StringValidator_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = StringValidator;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_StringValidatorTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = StringValidator.xcodeproj/StringValidatorTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_StringValidator" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = StringValidator.xcodeproj/StringValidator_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = StringValidator;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_StringValidatorTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = StringValidator.xcodeproj/StringValidatorTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_StringValidator.xcodeproj/Configs/Project.xcconfig /* StringValidator.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_StringValidator.xcodeproj/Configs/Project.xcconfig /* StringValidator.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "StringValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_StringValidator" /* Build configuration list for PBXNativeTarget "StringValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_StringValidator" /* Debug */,
+				_ReleaseConf_StringValidator /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_StringValidatorTests" /* Build configuration list for PBXNativeTarget "StringValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_StringValidatorTests" /* Debug */,
+				_ReleaseConf_StringValidatorTests /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
